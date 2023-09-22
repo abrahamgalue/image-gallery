@@ -23,7 +23,7 @@ export default function Search() {
         value={search}
         onChange={e => setSearch(e.target.value)}
         placeholder='Search for images'
-        className='bg-white p-2 w-[260px] sm:w-80 text-xl rounded-xl text-black'
+        className='bg-[#f7f7f7] border-[1px] border-[#f7f7f7] outline-none focus-within:bg-white p-2 px-4 w-[260px] sm:w-80 text-xl rounded-xl text-[#7f7f7f]'
       />
     </form>
   )
