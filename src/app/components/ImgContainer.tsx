@@ -22,14 +22,12 @@ export default function ImgContainer({ photo }: Props) {
         className='grid place-content-center'
       >
         <div className='rounded-md overflow-hidden group'>
-          <Image
+          <img
             src={photo.src.large}
             alt={photo.alt}
             width={250}
             height={photo.height}
             sizes='250px'
-            placeholder='blur'
-            blurDataURL={photo.blurredDataUrl}
             className='group-hover:opacity-75 group-hover:scale-105 transition-all duration-200'
           />
         </div>
