@@ -4,13 +4,21 @@
 
 </div>
 
-### Este proyecto permite buscar dentro de una galería de imágenes.
+### Galería de imágenes.
 
-Renderiza las imágenes a traves de la **API** de **Pexels**.
+> 🧩 Aquí puedes ver su [**Live Demo.**](https://image-gallery-abraham.vercel.app/)
 
-🧩 Aquí puedes ver su [**Live Demo.**](https://image-gallery-abraham.vercel.app/)
+![vista-previa](./public/preview/01-page-preview.png)
 
-Este proyecto utiliza:
+## 🚀 Descripción
+
+Este proyecto permite buscar dentro de una galería de imágenes.
+
+Y renderiza las imágenes a traves de la **API** de **Pexels**.
+
+## 🎭 Tecnologías
+
+El proyecto utiliza las siguientes tecnologías:
 
 - **Zod** para validar con TypeScript.
 - **Envalid** para acceder a variables de entorno en Node.js.
